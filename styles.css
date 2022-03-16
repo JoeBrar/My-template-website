@@ -136,6 +136,50 @@ body{
     font-weight: bold;
     margin-top:20px;
 }
+
+/*   Section 4   */
+
+.s4-outer-container{
+    width:80%;
+    margin:auto;
+}
+.s4-container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color:white;
+    margin:50px 0px;
+    padding:30px 10%;
+    border-radius: 7px;
+}
+.s4-text-content p:nth-of-type(1){
+    font-weight: bold;
+}
+.s4-text-content p:nth-of-type(2){
+    font-size: 12px;
+    font-weight:lighter;
+}
+.s4-button{
+    display:flex;
+    align-items:center;
+}
+.s4-button button{
+    background-color: #3882F6;
+    color: white;
+    outline:none;
+    border:2px solid white;
+    padding:4px 20px;
+    font-size:12px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.s4-button button:hover{
+    background-color: yellow;
+    color:black;
+}
+.s4-button button:active{
+    background-color: yellowgreen;
+}
 .fi2{
     flex:2;
 }
